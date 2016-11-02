@@ -21,8 +21,10 @@ class TestAlamofireMultiUpload: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let images = [UIImage(named: "test1"), UIImage(named: "test2")]
-        requestAPIUploadImageSignal
+        let images = [UIImage(named: "test1")!, UIImage(named: "test2")!]
+        requestAPIUploadImage("jo21ij3ndooi3okvdani3u43ijfdnk", images: images) { (result) in
+            print(result)
+        }
     }
     
     /// Upload file with multipart formdata
@@ -85,10 +87,10 @@ class TestAlamofireMultiUpload: UIViewController {
                 switch response.result {
                 case .Success(let value):
                     print(value)
-                    completion(true)
+                    completion(result: true)
                 case .Failure(let error):
                     print(error)
-                    completion(false)
+                    completion(result: false)
                 }
         })
     }
