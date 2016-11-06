@@ -23,6 +23,7 @@
 		0EAD4B061DC734140084688E /* TestRoundButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAD4B051DC734140084688E /* TestRoundButtonCell.swift */; };
 		0EAD4B081DC734350084688E /* TestRoundButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAD4B071DC734350084688E /* TestRoundButtonCell.xib */; };
 		0EAD4B0A1DC734B70084688E /* TestRoundButtonCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAD4B091DC734B70084688E /* TestRoundButtonCellController.swift */; };
+		0ED73FB01DCEB205006372B5 /* TestTableViewSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED73FAF1DCEB205006372B5 /* TestTableViewSearchController.m */; };
 		ADECBF55D404B3B127073EE1 /* Pods_SwiftPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1628D3C02F12B1C29610A0E6 /* Pods_SwiftPlayground.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,8 @@
 		0EAD4B051DC734140084688E /* TestRoundButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRoundButtonCell.swift; sourceTree = "<group>"; };
 		0EAD4B071DC734350084688E /* TestRoundButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestRoundButtonCell.xib; sourceTree = "<group>"; };
 		0EAD4B091DC734B70084688E /* TestRoundButtonCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRoundButtonCellController.swift; sourceTree = "<group>"; };
+		0ED73FAE1DCEB205006372B5 /* TestTableViewSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewSearchController.h; sourceTree = "<group>"; };
+		0ED73FAF1DCEB205006372B5 /* TestTableViewSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewSearchController.m; sourceTree = "<group>"; };
 		1628D3C02F12B1C29610A0E6 /* Pods_SwiftPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A187E0307F330721D9B20B19 /* Pods-SwiftPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPlayground/Pods-SwiftPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		CC62CB9F9487ABE95F624BC1 /* Pods-SwiftPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPlayground/Pods-SwiftPlayground.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				0E6E177E1DC79B0E006B98BD /* SwiftPlayground-Bridging-Header.h */,
 				0E13DF5D1DC8F2360004E3C9 /* TestJSON40362969.swift */,
 				0E27D1AE1DC9FAEA007776A7 /* TestAlamofireMultiUpload.swift */,
+				0ED73FAE1DCEB205006372B5 /* TestTableViewSearchController.h */,
+				0ED73FAF1DCEB205006372B5 /* TestTableViewSearchController.m */,
 			);
 			path = SwiftPlayground;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 				0EAD4B0A1DC734B70084688E /* TestRoundButtonCellController.swift in Sources */,
 				0EAD4B041DC717A90084688E /* TestAlamofireXML.swift in Sources */,
 				0EAD4B021DC714B10084688E /* TestSearchbarResult.swift in Sources */,
+				0ED73FB01DCEB205006372B5 /* TestTableViewSearchController.m in Sources */,
 				0E2E31FE1DC43B6600561D63 /* TestEYImageSliderController.swift in Sources */,
 				0E27D1AF1DC9FAEA007776A7 /* TestAlamofireMultiUpload.swift in Sources */,
 				0E2E31FC1DC43A4400561D63 /* EYImageSlider.swift in Sources */,
