@@ -24,6 +24,7 @@
 		0EAD4B081DC734350084688E /* TestRoundButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EAD4B071DC734350084688E /* TestRoundButtonCell.xib */; };
 		0EAD4B0A1DC734B70084688E /* TestRoundButtonCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAD4B091DC734B70084688E /* TestRoundButtonCellController.swift */; };
 		0ED73FB01DCEB205006372B5 /* TestTableViewSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED73FAF1DCEB205006372B5 /* TestTableViewSearchController.m */; };
+		0ED73FB81DCEF8B6006372B5 /* TestInnerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED73FB71DCEF8B6006372B5 /* TestInnerClass.swift */; };
 		ADECBF55D404B3B127073EE1 /* Pods_SwiftPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1628D3C02F12B1C29610A0E6 /* Pods_SwiftPlayground.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		0EAD4B091DC734B70084688E /* TestRoundButtonCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRoundButtonCellController.swift; sourceTree = "<group>"; };
 		0ED73FAE1DCEB205006372B5 /* TestTableViewSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewSearchController.h; sourceTree = "<group>"; };
 		0ED73FAF1DCEB205006372B5 /* TestTableViewSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewSearchController.m; sourceTree = "<group>"; };
+		0ED73FB71DCEF8B6006372B5 /* TestInnerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestInnerClass.swift; sourceTree = "<group>"; };
 		1628D3C02F12B1C29610A0E6 /* Pods_SwiftPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A187E0307F330721D9B20B19 /* Pods-SwiftPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPlayground/Pods-SwiftPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		CC62CB9F9487ABE95F624BC1 /* Pods-SwiftPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPlayground/Pods-SwiftPlayground.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				0E27D1AE1DC9FAEA007776A7 /* TestAlamofireMultiUpload.swift */,
 				0ED73FAE1DCEB205006372B5 /* TestTableViewSearchController.h */,
 				0ED73FAF1DCEB205006372B5 /* TestTableViewSearchController.m */,
+				0ED73FB71DCEF8B6006372B5 /* TestInnerClass.swift */,
 			);
 			path = SwiftPlayground;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				0E2E31EB1DC43A0D00561D63 /* ViewController.swift in Sources */,
 				0EAD4B001DC7094D0084688E /* TestSearchbarFocus.swift in Sources */,
 				0E6E177D1DC79ADD006B98BD /* TestSHA1Digest.swift in Sources */,
+				0ED73FB81DCEF8B6006372B5 /* TestInnerClass.swift in Sources */,
 				0E2E31E91DC43A0D00561D63 /* AppDelegate.swift in Sources */,
 				0E13DF5E1DC8F2360004E3C9 /* TestJSON40362969.swift in Sources */,
 			);
